@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+
+}
+.outline{
+    border: 1px solid transparent;
+}
+.outline:hover{
+    border: 1px solid navy;
+}
+.herosection{
+    height: 500px;
+}
+.hero-img{
+    height: 599px;
+    background-color: rgb(10, 10, 95);   
+}
+.herosection-img{
+    background-image: url("https://www.netlify.com/images/home/composable-platform-stack-shells.svg");
+    height: 599px; 
+}
+.hero-text{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    
+}
+@media screen and (max-width : 326px) 
+{
+    .btn{
+        margin-top: 9px;
+    }
+}
+
+@media screen and (max-width:326px) {
+    video{
+        width: 300px;
+    
+    }
+    
+}
+@media screen and (min-width:326px) {
+    video{
+        width: 300px;
+    }
+    
+}
+@media screen and (min-width:479px) {
+    video{
+        width: 350px;
+    }
+    
+}
+@media screen and (min-width:690px) {
+    video{
+        width: 450px;
+    }
+    
+}
+@media screen and (min-width:890px) {
+    video{
+        width: 500px;
+    }
+    
+}
+@media screen and (max-width : 326px) 
+{
+    .btn{
+        margin-top: 9px;
+    }
+}
+
+
+.card{
+    margin: 5px 7px;
+
+}
+  
